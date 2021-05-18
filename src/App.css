@@ -1,3 +1,120 @@
-.navbar-list{
-  background-color: #282c34;
+html {
+  text-align: center;
+  background-color: #9DC88D;
+}
+
+body {
+  margin: 0;
+}
+
+#header {
+  background: linear-gradient(#164A41, 90%, #4d774e00);
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+#header h2 {
+  margin-bottom: 2%;
+}
+
+.navbar {
+  width: 100%;
+  padding: 0 0 2% 0;
+}
+
+.navbarMenu {
+  width: 70%;
+  margin-top: 2%;
+  margin-left: 15%;
+}
+
+#name {
+  width: 15%;
+  float: left;
+  padding-top: initial;
+}
+
+#header a{
+  margin: 2%;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar h2{
+  margin: 0 0 0 2%;
+  text-align: left;
+}
+
+/*
+Red Highlight: #B73225
+
+Blue Minded: #004E7C
+
+Maroon 6: #591COB
+
+Grey Water: #5C5F58
+
+Lighter Grey: #DCE1E3
+*/
+
+/*
+Dark Green: #164A41
+
+Medium Green: #4D774E
+
+Light Green: #9DC88D
+
+Natural Yellow: #F1B24A
+
+White: #FFFFFF
+*/
+
+
+
+.bubble{
+  border-radius: 100%;
+  width: 25%;
+  height: 25%;
+  padding: 2%;
+}
+
+#competences {
+  padding: 20px;
+  width: 100%;
+  min-height: 200px ;
+}
+
+ul{
+  list-style-type: none;
+  text-align: left;
+}
+li{
+  margin-top: 1%;
+}
+
+li .progress_bar{
+  float: right;
+}
+
+
+.progress_bar {
+  position: relative;
+  height: 0,5em;
+  width: 5em;
+  border-radius: 50px;
+  border: 1px solid #333;
+}
+
+.filler {
+  background: #1DA598;
+  border-radius: inherit;
+  transition: width .2s ease-in;
+
+}
+
+.filler p {
+  text-align: center;
+  margin: 0;
 }
